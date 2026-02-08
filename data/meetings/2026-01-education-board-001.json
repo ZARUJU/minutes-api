@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "meetingId": "2026-01-education-board-001",
+  "title": "令和8年 第1回 教育委員会",
+  "date": "2026-01-20",
+  "source": {
+    "url": "https://example.local/minutes/2026-01-education-board-001",
+    "fetched_at": "2026-02-08T00:00:00Z",
+    "original_type": "summary"
+  },
+  "body": {
+    "summary": "学校施設整備計画およびICT活用方針を確認。",
+    "items": ["施設整備", "ICT活用", "次回日程"]
+  }
+}

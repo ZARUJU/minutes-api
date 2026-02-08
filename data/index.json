@@ -1,0 +1,14 @@
+{
+  "meetings": [
+    {
+      "meetingId": "2026-01-city-council-001",
+      "title": "令和8年 第1回 市議会 定例会",
+      "date": "2026-01-15"
+    },
+    {
+      "meetingId": "2026-01-education-board-001",
+      "title": "令和8年 第1回 教育委員会",
+      "date": "2026-01-20"
+    }
+  ]
+}

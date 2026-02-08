@@ -2,6 +2,11 @@
   "name": "minutes-api",
   "type": "module",
   "scripts": {
+    "generate:index": "node scripts/generate-index.mjs",
+    "sync:data": "node scripts/sync-data.mjs",
+    "build:data": "npm run generate:index && npm run sync:data",
+    "predev": "npm run build:data",
+    "predeploy": "npm run build:data",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
